@@ -23,7 +23,7 @@ def main():
     #
     # This is why the requests library was developed!
 
-    searchMe = urllib.request.urlopen(url.read().decode("utf-8")
+    searchMe = urllib.request.urlopen(url).read().decode("utf-8")
 
     # use the re.search() to determine if our website has the pattern we are looking for
     # it works by taking arguments, the first is the regex search pattern, and the second
